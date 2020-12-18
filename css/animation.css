@@ -1,0 +1,19 @@
+                                           :root {
+                                              --main-color: rgb(0, 143, 248);
+                                              --main-color-transparent--: rgba(148, 211, 255, 0.8);
+                                              --form-color--: white;
+                                              --main-color-opacity--: #0e6bce;
+                                          }
+                                          
+                                          @keyframes button-covered {
+                                              from {
+                                                  width: 0%;
+                                              }
+                                              to {
+                                                  width: 100%;
+                                              }
+                                          }
+                                          
+                                          header ul li:hover:before {
+                                              animation: button-covered 4ms ease-in-out 1 alternate both;
+                                          }

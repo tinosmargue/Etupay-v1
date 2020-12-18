@@ -1,0 +1,130 @@
+:root {
+    --main-color: #0e6bce;
+}
+
+header ul {
+    flex: 0 1 75%;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-right: 35px;
+}
+
+#title-frais-transfert {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+#frais-transfert {
+    padding: 0% 5% 0% 5%;
+}
+
+#why-use-item1 {
+    flex: 0 1 50%;
+    order: 2;
+}
+
+#why-use-item2 {
+    flex: 0 1 47%;
+    order: 1;
+}
+
+.indent {
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.cadre {
+    flex: 0 1 33%;
+    margin-bottom: 20px;
+}
+
+.cadre p:last-of-type {
+    padding-right: 10px;
+    padding-left: 10px;
+    hyphens: auto;
+}
+
+#process-paiement {
+    grid-template-columns: 98%;
+    grid-template-rows: repeat(3, 320px);
+}
+
+.layout-process-2 {
+    display: grid;
+    grid-template-columns: 49.9% 0.1% 49.9%;
+    grid-template-rows: 270px;
+}
+
+.layout-separation {
+    margin-top: 70px;
+    height: 200px;
+}
+
+.layout-process-item {
+    grid-template-columns: 95%;
+    grid-template-rows: 20px 250px;
+}
+
+.layout-process-item i {
+    padding-top: 68px;
+}
+
+.layout-process-item p {
+    text-align: justify;
+}
+
+.layout-frais-transfert div p {
+    padding: 1px 15px 15px 60px;
+}
+
+#our-description-item1 div:first-child {
+    align-items: center;
+}
+
+#our-description-item1 div:first-child img {
+    height: 90%;
+}
+
+#nav-hamburger {
+    display: none;
+}
+
+.indent {
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+/*investment.html*/
+
+#banniere-investissement {
+    width: 100%;
+    height: 580px;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+#banniere-investissement div:first-of-type {
+    flex: 0 1 45%;
+}
+
+#banniere-investissement div:last-of-type {
+    flex: 0 1 45%;
+}
+
+.icon-container {
+    flex: 0 1 48%;
+    height: 80px;
+}
+
+#explain-investment {
+    width: 98%;
+}
+
+#explain-investment>div:last-child {
+    height: 270px;
+}
+
+.icon-container {
+    border-radius: 10px;
+}

@@ -1,0 +1,814 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-svg {
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flex-container-with-indent {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.title-h1 {
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+    color: #0e6bce;
+}
+
+#about-invest div:last-child h1 {
+    text-align: center;
+}
+
+#banniere-investissement {
+    background-image: url("../images/investmentbg.png");
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    margin-top: -1px;
+}
+
+#banniere-investissement div:last-of-type {
+    background-image: url("../images/52401.png");
+    flex: 0 1 45%;
+    background-size: 100% 400px;
+    transform: rotate(-2deg);
+}
+
+#banniere-investissement div:first-of-type {
+    flex: 0 1 45%;
+    flex-flow: column;
+}
+
+#banniere-investissement div:first-of-type button {
+    width: 40%;
+    background-color: #0e6bce;
+    border-radius: 50px;
+    height: 50px;
+    margin-left: 10%;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.read-more {
+    color: #0e6bce;
+    margin-left: 10px;
+}
+
+#why-invest {
+    width: 90%;
+    align-items: flex-start;
+    background-color: white;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: auto;
+}
+
+.benefit-investment-container {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 1 25%;
+    justify-content: space-between;
+}
+
+.benefit-investment-container div {
+    display: flex;
+    flex: 0 1 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.benefit-investment-container div span {
+    box-shadow: 4px 4px 9px #e0e0e0, -4px -4px 9px #ffffff;
+}
+
+.icon-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 22%;
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: inset 9px 9px 18px #e0e0e0, inset -9px -9px 18px #ffffff;
+}
+
+.benefit-investment-container div span i {
+    transform: scale(1.5);
+}
+
+.benefit-investment-container div h2 {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 1 75%;
+    word-wrap: normal;
+    word-break: keep-all;
+}
+
+.benefit-investment-container p {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 25%;
+    text-align: center;
+}
+
+#about-invest {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#about-invest div:first-child {
+    /*background: url("../images/investinEtupay.png"), radial-gradient(circle, #0e6bce, transparent);*/
+    background: url("../images/61435.png");
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 55%;
+    background-size: 100% 500px;
+    animation: money-down 5s ease-in 1 alternate;
+    background-size: initial 100px;
+    /*background-position-y: -87px;
+    background-position-x: -50px;
+    border-radius: 87%;*/
+    background-position-y: -50px;
+}
+
+#about-invest div:last-child {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 45%;
+    justify-content: center;
+}
+
+#explain-investment {
+    background-color: #0e6bce;
+}
+
+#explain-investment p,
+#explain-investment a {
+    color: white;
+    text-align: justify;
+}
+
+#explain-investment h1 {
+    color: white !important;
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+}
+
+#explain-investment>div:first-child {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 1 38%;
+    justify-content: space-between;
+}
+
+#explain-investment>div:last-child>div:first-child {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 8px;
+    height: 60px;
+    padding-right: 0px;
+    flex: 0 1 80% !important;
+}
+
+#explain-investment>div:last-child>div:first-child div {
+    flex: 0 1 15%;
+}
+
+#explain-investment>div:last-child>div:first-child p {
+    color: black;
+    flex: 0 1 82%;
+}
+
+#explain-investment>div:last-child {
+    display: flex;
+    flex: 0 1 49%;
+    height: 220px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.how-investment-work:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 8px;
+    height: 60px;
+}
+
+.how-investment-work:hover>div:first-child p {
+    color: black;
+}
+
+.how-investment-work {
+    display: flex;
+    flex-flow: row nowrap !important;
+    flex: 0 1 100% !important;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out 0.1ms;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-right: 3px;
+}
+
+.how-investment-work div {
+    display: flex;
+    flex: 0 1 12%;
+}
+
+.how-investment-work div>span:first-child {
+    background-color: #ff4f03;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 1;
+    top: -5px;
+    left: 15px;
+    text-align: center;
+}
+
+.how-investment-work div>span:last-child {
+    position: relative;
+    z-index: 0;
+    padding: 0px 2px 0px 2px;
+    flex: 0 1 100%;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.how-investment-work div>span:last-child i {
+    transform: scale(1.4);
+}
+
+.how-investment-work p {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 1 85%;
+    justify-content: flex-start;
+    transition: all 0.3s ease-in;
+}
+
+#explain-investment+h2 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#features-for-investing {
+    height: auto;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+#features-for-investing>div {
+    display: flex;
+    flex: 0 1 30%;
+    flex-flow: column nowrap;
+    height: 500px;
+}
+
+#features-for-investing>div>div:last-child {
+    text-align: center;
+    display: flex;
+    flex: 0 1 100%;
+    flex-flow: column;
+}
+
+#features-for-investing div:nth-child(1)>div:first-child {
+    background: url("../images/investment.jpg");
+    display: flex;
+    background-size: 100% 250px;
+    height: 250px;
+    flex: 0 100%;
+}
+
+#features-for-investing div:nth-child(2)>div:first-child {
+    background: url("../images/40622231.jpg");
+    display: flex;
+    background-size: 100% 250px;
+    height: 250px;
+    flex: 0 100%;
+}
+
+#features-for-investing div:nth-child(3)>div:first-child {
+    background: url("../images/asset_6.jpg");
+    display: flex;
+    background-size: 100% 250px;
+    height: 250px;
+    flex: 0 100%;
+}
+
+#features-for-investing+h3,
+h2 {
+    text-align: center;
+}
+
+#types-of-investiment {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    height: 100px;
+}
+
+#types-of-investiment>div {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 1 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+#types-of-investiment div .icon-container {
+    flex: 0 1 80% !important;
+    padding: 25px;
+    box-shadow: 4px 4px 9px #e0e0e0, -4px -4px 9px #fff;
+}
+
+#types-of-investiment div .icon-container i {
+    transform: scale(1.7);
+}
+
+
+/*
+#invest-now {
+    width: 200px;
+    height: 70px;
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 80%;
+    font-size: 18px;
+    background-color: #0e6bce;
+    color: white;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #0f72dc, #0d60b9);
+    box-shadow: 5px 5px 10px #0a4f98, -5px -5px 10px #1287ff;
+    z-index: 100;
+    user-select: none;
+    cursor: pointer;
+}*/
+
+
+/* responsive from 1280px to 300px
+/*
+    *for content with width more or start from 1280px
+*/
+
+@media (min-width: 1280px) {
+    .icon-container {
+        flex: 0 1 23% !important;
+        height: 64px !important;
+    }
+    #explain-investment .icon-container {
+        flex: 0 1 48% !important;
+        height: 46px !important;
+    }
+    .how-investment-work div>span:first-child {
+        height: 28px;
+    }
+    #about-invest div:last-child {
+        margin-top: 4%!important;
+    }
+}
+
+
+/* responsive from 1280px to 300px
+/*
+    *for content with width more or start from 962px
+*/
+
+@media (min-width: 960px) {
+    #banniere-investissement {
+        margin-top: -37px;
+    }
+    #banniere-investissement div:first-of-type {
+        flex: 0 1 48% !important;
+    }
+    #banniere-investissement div:last-of-type {
+        flex: 0 1 45%;
+        background-size: 100% 344px;
+        background-repeat: no-repeat;
+    }
+    #about-invest div:last-child {
+        flex: 0 1 50%;
+    }
+    .benefit-investment-container {
+        flex: 0 1 30% !important;
+    }
+    .benefit-investment-container div h2 {
+        flex: 0 1 70% !important;
+    }
+    .icon-container {
+        flex: 0 1 24% !important;
+        height: 63px !important;
+    }
+    header {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+    #about-invest {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        height: 383px !important;
+    }
+    #about-invest div:first-child {
+        background-size: 100% 439px !important;
+        background-position-y: -40px!important;
+    }
+    #about-invest div:last-child {
+        margin-top: 5%;
+    }
+    .flex-container-with-indent {
+        width: 98%;
+        margin-bottom: 96px;
+    }
+    #explain-investment .icon-container {
+        flex: 0 1 48% !important;
+        height: 44px !important;
+    }
+    .how-investment-work div>span:first-child {
+        height: 28px;
+    }
+}
+
+
+/* responsive from 1280px to 300px
+/*
+    *for content with width more or start from 800px
+*/
+
+@media screen and ( min-width:800px) {
+    #banniere-investissement {
+        margin-top: -37px;
+        height: 650px !important;
+    }
+    #banniere-investissement div:last-of-type {
+        background-size: 100% 417px !important;
+    }
+    #about-invest div:last-child {
+        flex: 0 1 50%;
+    }
+    .icon-container {
+        flex: 0 1 24% !important;
+        height: 63px !important;
+    }
+    #about-invest div:first-child {
+        background-size: 100% 440px;
+        background-position-y: -3px;
+    }
+    .flex-container-with-indent {
+        width: 98%;
+        margin-bottom: 96px;
+    }
+    #explain-investment .icon-container {
+        flex: 0 1 89% !important;
+        height: 44px !important;
+    }
+    #explain-investment>div:last-child {
+        flex: 0 1 56%;
+    }
+    .how-investment-work div>span:first-child {
+        height: 23px !important;
+    }
+}
+
+
+/* responsive from 1280px to 300px
+/*
+    *for all content with width more or start from 1280px
+*/
+
+@media (max-width: 800px) {
+    #banniere-investissement {
+        height: 459px;
+        flex-flow: row nowrap;
+        margin-top: -120px;
+    }
+    .container-svg {
+        display: none;
+    }
+    #banniere-investissement div:first-of-type {
+        flex: 0 1 100%;
+        flex-flow: column;
+        height: 400px;
+    }
+    .title-h1 {
+        text-align: center;
+    }
+    .title-h1+p {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .icon-container {
+        flex: 0 1 43% !important;
+        height: 73px !important;
+        border-radius: 20px;
+    }
+    #explain-investment .icon-container {
+        flex: 0 1 48% !important;
+        height: 46px !important;
+    }
+    .how-investment-work div>span:first-child {
+        height: 28px;
+    }
+    #about-invest div:first-child {
+        flex: 0 1 45%;
+        background-size: 100% 440px;
+        background-position-y: -49px;
+    }
+    #about-invest div:last-child {
+        flex: 0 1 54%;
+    }
+    #about-invest {
+        width: 100% !important;
+        padding-right: 3% !important;
+        padding-left: 0% !important;
+    }
+    .flex-container-with-indent {
+        margin-bottom: 80px;
+    }
+    #explain-investment p {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #explain-investment {
+        padding-right: 2% !important;
+        padding-left: 2% !important;
+        width: 96% !important;
+    }
+    #explain-investment .icon-container {
+        flex: 0 1 78% !important;
+        height: 44px !important;
+        margin-right: 5px;
+    }
+    .how-investment-work div>span:first-child {
+        height: 28px;
+    }
+    .how-investment-work {
+        margin-bottom: 40px;
+    }
+    #types-of-investiment {
+        margin-bottom: 106px;
+    }
+}
+
+
+/*
+    *for content with width between 800px and 630px
+*/
+
+@media(min-width: 630px) and (max-width: 800px) {
+    #about-invest div:first-child {
+        display: none;
+    }
+    #about-invest div:last-child {
+        flex: 0 1 100% !important;
+    }
+    #about-invest {
+        margin-bottom: 60px !important;
+        height: 300px;
+    }
+    .how-investment-work div>span:first-child {
+        height: 23px !important;
+    }
+    #explain-investment>div:last-child {
+        flex: 0 1 55%;
+        height: 362px;
+    }
+    .how-investment-work {
+        margin-bottom: 50px !important;
+    }
+    #features-for-investing>div {
+        flex: 0 1 32% !important;
+        height: 500px !important;
+    }
+    #features-for-investing {
+        padding-right: 1%;
+        padding-left: 1%;
+        width: 98%;
+    }
+}
+
+
+/*
+    *for content with width between 301px and 629px
+*/
+
+@media screen and ( min-width:301px) and (max-width: 629px) {
+    #banniere-investissement div:first-of-type button {
+        width: 61%;
+    }
+    #banniere-investissement {
+        margin-bottom: 60px;
+        height: 550px;
+        margin-top: -100px !important;
+    }
+    #banniere-investissement p {
+        padding-right: 1% !important;
+        padding-left: 1% !important;
+    }
+    #why-invest {
+        flex-flow: column wrap;
+        width: 98%;
+        padding-left: 1% !important;
+        padding-right: 1% !important;
+    }
+    #about-invest {
+        flex-flow: column !important;
+        margin-bottom: 60px !important;
+        height: 500px !important;
+    }
+    #about-invest .container-svg {
+        display: none !important;
+    }
+    #about-invest div:last-child {
+        flex: 0 1 100%;
+    }
+    .benefit-investment-container {
+        margin-bottom: 25px;
+    }
+    .benefit-investment-container .icon-container {
+        flex: 0 1 21% !important;
+        height: 60px !important;
+    }
+    .container-svg {
+        display: none;
+    }
+    #explain-investment {
+        width: 100%;
+        padding-left: 5% !important;
+    }
+    #explain-investment>div:first-child {
+        flex: 0 1 90%;
+    }
+    #explain-investment>div:last-child {
+        display: none;
+    }
+    #features-for-investing {
+        padding-right: 1% !important;
+        padding-left: 1% !important;
+        width: 100%;
+    }
+    #features-for-investing>div {
+        flex: 0 1 95%;
+    }
+    #types-of-investiment>div {
+        flex: 0 1 50%;
+    }
+    #types-of-investiment {
+        flex-flow: row wrap;
+        height: 455px;
+    }
+    .benefit-investment-container .icon-container {
+        margin-left: 10%;
+    }
+    .benefit-investment-container div h2 {
+        margin-left: 1%;
+    }
+    #features-for-investing div div:first-child {
+        background-size: 80% 250px !important;
+        margin-left: calc(40%/2) !important;
+        background-repeat: no-repeat !important;
+    }
+    #features-for-investing div:nth-child(3)>div:first-child {
+        flex: 0 1 80% !important;
+    }
+}
+
+
+/*
+    *for content with width start or less tban 520px
+*/
+
+@media(max-width: 520px) {
+    #banniere-investissement {
+        height: 550px !important;
+        margin-top: -106px !important;
+    }
+    #banniere-investissement p {
+        padding-right: 1% !important;
+        padding-left: 1% !important;
+    }
+}
+
+
+/*
+    *for content with widt less or start from and 466px
+*/
+
+@media (max-width: 466px) {
+    #banniere-investissement {
+        height: 730px !important;
+        margin-top: -300px !important;
+    }
+    #banniere-investissement p {
+        padding-right: 1% !important;
+        padding-left: 1% !important;
+    }
+}
+
+@media (max-width: 422px) {
+    #banniere-investissement {
+        height: 945px !important;
+        margin-top: -320px !important;
+    }
+    #banniere-investissement p {
+        padding-right: 1% !important;
+        padding-left: 1% !important;
+    }
+}
+
+
+/*
+    *for content with width less or start from 307px
+*/
+
+@media(max-width: 307px) {
+    #banniere-investissement div:first-of-type button {
+        width: 61%;
+    }
+    #banniere-investissement {
+        margin-bottom: 100px;
+    }
+    p {
+        padding-right: 1% !important;
+        padding-left: 1% !important;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+    #banniere-investissement div:first-of-type {
+        flex: 0 1 90%;
+        height: 500px;
+    }
+    .flex-container-with-indent {
+        margin-bottom: 70px;
+    }
+    #why-invest {
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .benefit-investment-container {
+        margin-bottom: 25px;
+    }
+    .benefit-investment-container .icon-container {
+        flex: 0 1 21% !important;
+        height: 60px !important;
+    }
+    .container-svg {
+        display: none;
+    }
+    #explain-investment {
+        width: 100%;
+        padding-left: 5% !important;
+    }
+    #explain-investment>div:first-child {
+        flex: 0 1 90%;
+    }
+    #explain-investment>div:last-child {
+        display: none;
+    }
+    #features-for-investing {
+        padding-left: 5%;
+        width: 100%;
+    }
+    #features-for-investing>div {
+        flex: 0 1 95%;
+    }
+    #types-of-investiment>div {
+        flex: 0 1 50%;
+    }
+    #types-of-investiment {
+        flex-flow: row wrap;
+        height: 455px;
+    }
+    .benefit-investment-container .icon-container {
+        margin-left: 10%;
+    }
+    .benefit-investment-container div h2 {
+        margin-left: 1%;
+    }
+}

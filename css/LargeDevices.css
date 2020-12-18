@@ -1,0 +1,114 @@
+/*768px,
+992px,
+1200px 576px */
+
+
+/*about.html*/
+
+header ul {
+    flex: 1 1.5 60%;
+    flex-flow: row wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    page-break-after: auto;
+}
+
+header ul li {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-right: 1px;
+    margin-bottom: 0px;
+}
+
+header ul li::before {
+    top: 25px;
+}
+
+#banniere-follow {
+    background-size: cover;
+    height: 420px;
+}
+
+#why-us {
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+#why-us h2 {
+    padding-left: 0;
+}
+
+#why-use-item2 {
+    flex: 0 1 48%;
+}
+
+#why-use-item1 {
+    flex: 0 1 48.5%;
+}
+
+.indent {
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.cadre {
+    margin-bottom: 40px;
+    flex: 0 1 32%;
+}
+
+#frais-transfert {
+    padding: 0% 10% 0% 10%;
+}
+
+.cadre p:last-of-type {
+    margin-top: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#our-description-item1 div:first-child img {
+    width: 100%;
+    height: 80%;
+    padding-top: 10%;
+}
+
+#nav-hamburger {
+    display: none;
+}
+
+
+/*investment.html*/
+
+#banniere-investissement {
+    width: 100%;
+    height: 580px;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+#banniere-investissement div:first-of-type {
+    flex: 0 1 45%;
+}
+
+#banniere-investissement div:last-of-type {
+    flex: 0 1 45%;
+}
+
+.icon-container {
+    flex: 0 1 48%;
+    height: 80px;
+}
+
+#explain-investment {
+    width: 98%;
+}
+
+#explain-investment>div:last-child {
+    height: 270px;
+}
+
+.icon-container {
+    border-radius: 10px;
+}

@@ -1,0 +1,54 @@
+.cadre {
+    margin-bottom: 20px;
+}
+
+#why-use-item1 p {
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+#why-us li {
+    margin-left: -50px;
+    text-align: justify;
+}
+
+#process-paiement {
+    grid-template-columns: 99.8%;
+    grid-template-rows: repeat(3, 770px);
+}
+
+#All-benefite {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.layout-process-2 {
+    grid-template-columns: 100%;
+    grid-template-rows: 410px 330px;
+}
+
+.layout-process-item {
+    grid-template-columns: 97%;
+}
+
+#user-profile {
+    margin-left: 20%;
+}
+
+.layout-frais-transfert div p {
+    height: 80px;
+    text-align: justify;
+}
+
+#intervalle span {
+    border-top: 39px solid transparent;
+    border-bottom: 39px solid transparent;
+    border-left: 15px solid var(--main-derive-color);
+}
+
+#frais-a-payer div span {
+    border-top: 39px solid var(--main-derive-color);
+    border-bottom: 40px solid var(--main-derive-color);
+    border-left: 15px solid white;
+}

@@ -1,0 +1,89 @@
+:root {
+    --main-color: #0e6bce;
+    --main-derive-color: #008ff8;
+    --main-color-transparent--: rgba(215, 239, 255, 0.8);
+    --main-color-transparent-increment--: rgb(245, 251, 255);
+    --form-color--: white;
+    --main-color-opacity--: #0e6bce;
+    --hover-color-increment--: rgba(226, 245, 255, 0.8);
+    --hover-color: #0095ff;
+    --text-color: #0e6bce;
+    --blue-white: #3bacf0;
+    --blue-dark: #04091e;
+    --banniere-link-color: steelblue;
+    --gris: #cccccc;
+    --section-back-color-gris: #f4f9ff;
+    --h1-size: 26px;
+    --nav-item-color: steelblue;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #868e96;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: "SFMono-Regular",Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+body {
+    background: #fff;
+    font-family: "century gothic","Poppins",sans-serif, 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin: 0;
+}
+
+body::selection
+{
+    background-color: var(--main-color);
+    color: white;
+}
+
+p,
+.paragraph {
+    font-size: 17px;
+    color: var(--main-color-opacity--);
+    line-height: 2;
+    font-weight: 400;
+    font-size: 17px;
+} h2,h1 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: var(--h1-size);
+    letter-spacing: 0.017em;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+h1,h2,h3,h4
+{
+
+    font-weight: 600;
+}
+h3,
+h4 {
+    color: var(--main-derive-color);
+    font-size: 18px;
+}
